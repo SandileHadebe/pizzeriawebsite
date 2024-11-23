@@ -1,0 +1,84 @@
+body{
+    background: url(./assets/images/background\ for\ contact\ us\ page.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    margin-top: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #F4E1D2;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+#statement{
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F4E1D2;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    padding: 0 20px;
+
+}
+#details{
+    max-width: 800px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F4E1D2;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 20px;
+}
+.back-button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.background-button:hover{
+    background-color: red;
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; 
+    }
+
+    #statement {
+        font-size: 1.3rem; 
+    }
+
+    #details {
+        font-size: 1.2rem; 
+    }
+
+    .back-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2rem; 
+    }
+
+    #statement, #details {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .back-button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}
